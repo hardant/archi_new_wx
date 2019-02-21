@@ -4,12 +4,21 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "node ./dist/index.js",
+    "tsc": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Brandon",
   "license": "ISC",
   "dependencies": {
-    "koa": "^2.6.2"
+    "import-dir": "0.0.1",
+    "koa": "^2.6.2",
+    "koa-router": "^7.4.0"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.0.48",
+    "@types/koa-router": "^7.0.37",
+    "typescript": "^3.2.2"
   }
 }
